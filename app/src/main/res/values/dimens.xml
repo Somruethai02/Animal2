@@ -7,4 +7,5 @@
     <dimen name="h2">25sp</dimen>
     <dimen name="margin">50dp</dimen>
     <dimen name="height">150dp</dimen>
+    <dimen name="icon">150dp</dimen>
 </resources>
