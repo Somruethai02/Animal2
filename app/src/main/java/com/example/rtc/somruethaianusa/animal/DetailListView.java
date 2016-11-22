@@ -24,9 +24,12 @@ public class DetailListView extends AppCompatActivity {
             Log.d ("21novV2" ,"JSoN ==> " + strJSON);
             JSONArray jsonArray = new JSONArray(strJSON);
 
+            JSONArray jsonArray1 = new JSONArray();
 
-
-
+            String[] nameStrings = new String[jsonArray.length()];
+            String[] detailStrings = new String[jsonArray.length()];
+            String[] imageStrings = new String[jsonArray.length()];
+            String[] soundStrings = new String[jsonArray.length()];
         } catch (Exception e){
             Log.d ("21novV2", "e onCreate ==> "+ e.toString());
 
