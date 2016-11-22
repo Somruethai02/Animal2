@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import org.json.JSONArray;
+
 public class DetailListView extends AppCompatActivity {
 
     //Explicit
@@ -20,6 +22,11 @@ public class DetailListView extends AppCompatActivity {
             getAnimal.execute();
             String strJSON = getAnimal.get();
             Log.d ("21novV2" ,"JSoN ==> " + strJSON);
+            JSONArray jsonArray = new JSONArray(strJSON);
+
+
+
+
         } catch (Exception e){
             Log.d ("21novV2", "e onCreate ==> "+ e.toString());
 
