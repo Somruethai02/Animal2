@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Animal</string>
+
+
+    <string name="titleMain">สัตว์ป่าสงวน</string>
+    <string name="cat1">อัลบั้มภาพสัตว์ป่า</string>
+    <string name="cat1">แนะนำสัตว์ป่า</string>
+    <string name="cat1">คำถาม</string>
+    <string name="cat1">เกมส์จิ๊กซอว์</string>
+
 </resources>
