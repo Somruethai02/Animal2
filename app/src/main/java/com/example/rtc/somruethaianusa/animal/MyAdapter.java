@@ -51,7 +51,7 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
 
-        LayoutInflater layoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view1 = layoutInflater.inflate(R.layout.my_listview, parent, false);
 
 
