@@ -40,11 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textView2:
                 break;
             case R.id.textView3:
-
-                Intent intent = new Intent(MainActivity.this, DetailListView.class);
-                startActivity(intent);
-
-
                 break;
             case R.id.textView4:
                 break;
@@ -53,6 +48,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
 
+
+
+
+
+        Intent intent = new Intent(MainActivity.this, DetailListView.class);
+        startActivity(intent);
     }   //onClick
 
 }   //Main class
