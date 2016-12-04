@@ -10,17 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rtc.somruethaianusa.animal.MainActivity"
-    android:background="@drawable/egg">
-
-    <TextView
-        android:text="@string/titleMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textSize="@dimen/h1"
-        android:textStyle="normal|bold"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/aText" />
+    android:background="@drawable/main">
 
     <LinearLayout
         android:orientation="vertical"
@@ -44,7 +34,7 @@
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
-                android:textColor="@color/aText"
+                android:textColor="@color/bText"
                 android:gravity="center_horizontal"
                 android:clickable="true" />
 
@@ -56,7 +46,7 @@
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
-                android:textColor="@color/aText"
+                android:textColor="@color/bText"
                 android:gravity="center_horizontal"
                 android:clickable="true" />
         </LinearLayout>
@@ -75,7 +65,7 @@
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
-                android:textColor="@color/aText"
+                android:textColor="@color/bText"
                 android:gravity="center_horizontal"
                 android:clickable="true" />
 
@@ -87,7 +77,7 @@
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
-                android:textColor="@color/aText"
+                android:textColor="@color/bText"
                 android:gravity="center_horizontal"
                 android:clickable="true" />
         </LinearLayout>

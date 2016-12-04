@@ -7,5 +7,14 @@
     <string name="cat2">แนะนำสัตว์ป่า</string>
     <string name="cat3">คำถาม</string>
     <string name="cat4">เกมส์จิ๊กซอว์</string>
+    <string name="TextView">What is This</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">settings</string>
+    <string name="select1">Parrot</string>
+    <string name="select2">Burmese python</string>
+    <string name="select3">Green turtle</string>
+    <string name="select4">Curve-toed gecko</string>
+    <string name="answer">Answer</string>
+
 
 </resources>

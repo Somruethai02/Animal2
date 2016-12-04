@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailListView" />
-        <activity android:name=".Album"></activity>
+        <activity android:name=".Album" />
+        <activity android:name=".question"></activity>
     </application>
 
 </manifest>
