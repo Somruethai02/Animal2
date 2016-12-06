@@ -48,33 +48,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/select1"
-                android:id="@+id/rad1"
+                android:id="@+id/rada"
                 android:layout_weight="0"
                 android:textSize="@dimen/h3" />
 
             <RadioButton
-                android:text="@string/select2"
+                android:text="Serow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/rad2"
+                android:id="@+id/radb"
                 android:layout_weight="0"
                 android:textSize="@dimen/h3" />
 
             <RadioButton
-                android:text="@string/select3"
+                android:text="Goral"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/rad3"
+                android:id="@+id/radc"
                 android:layout_weight="0"
                 android:textSize="@dimen/h3" />
 
-            <RadioButton
-                android:text="@string/select4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/rad4"
-                android:layout_weight="0"
-                android:textSize="@dimen/h3" />
+
 
             <Button
                 android:text="@string/answer"

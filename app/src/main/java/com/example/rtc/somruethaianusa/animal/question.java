@@ -2,6 +2,7 @@ package com.example.rtc.somruethaianusa.animal;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
@@ -21,17 +22,14 @@ public class question extends AppCompatActivity {
             @Override
          public void onCheckChanged(RadioGroup radioGroup, int i ){
             switch (i) {
-                case R.id.rad1:
+                case R.id.rada:
                     strAnswer = "Parrot";
                     break;
-                case R.id.rad2:
-                    strAnswer = "Burmese python";
+                case R.id.radb:
+                    strAnswer = "Serow";
                     break;
-                case R.id.rad3:
-                    strAnswer = "Green turtle";
-                    break;
-                case R.id.rad4:
-                    strAnswer = "curve-toed gecko";
+                case R.id.radc:
+                    strAnswer = "Goral";
                     break;
                 default:
                     strAnswer = null;
@@ -43,10 +41,19 @@ public class question extends AppCompatActivity {
         imvAnimal = (ImageView) findViewById(R.id.imvAnimal);
         radAnswer =(RadioGroup) findViewById(R.id.radAnswer);
     }
-    public void  clickAnswer(View view){
-        checkChooseAnswer(){
+    public void  ClickAnswer(View view) {
+        checkChooseAnswer();
+
+    }
+       private void checkChooseAnswer(){
+
 
         }
-    private void ch
+    private void checkChooseAnswer(){
+        if (strAnswer ! = null){
+            Log.d("somruethaianusa", "strAnswer = +strAnswer");
+        } else {
+            Log.d("somruethaianusa", "Please Choose Something");
+        }
     }
 }
